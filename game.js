@@ -78,7 +78,7 @@ function nextSequence() {
 
     var btnId = "#" + randomChosenColour;
 
-    $(btnId).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+    $(btnId).fadeOut(100).fadeIn(100).fadeOut(50).fadeIn(50);
     playSound(randomChosenColour);
 
 }
@@ -103,5 +103,4 @@ function startOver() {
     gamePattern = [];
     level = 0;
     score = 0;
-
 }
